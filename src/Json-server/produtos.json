@@ -1,0 +1,22 @@
+{
+  "mercadoria": [
+    {
+      "produto": "Monitor",
+      "quantidade": "1",
+      "preco": "800",
+      "id": 1
+    },
+    {
+      "produto": "Filtro",
+      "quantidade": "1",
+      "preco": "40",
+      "id": 2
+    },
+    {
+      "produto": "Mouse",
+      "quantidade": "5",
+      "preco": "50",
+      "id": 3
+    }
+  ]
+}
