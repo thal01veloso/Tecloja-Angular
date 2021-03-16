@@ -3,7 +3,6 @@ import { Component, OnInit } from '@angular/core';
 import { TeclojaService } from '../service/tecloja.service';
 
 @Component({
-  selector: 'app-tecloja',
   templateUrl: './tecloja.component.html',
   styleUrls: ['./tecloja.component.css']
 })
@@ -15,6 +14,7 @@ export class TeclojaComponent implements OnInit {
   constructor(private teclojaService:TeclojaService) { }
 
   ngOnInit(): void {
+    console.log("Chegou aqui")
     this.listarProdutos();
   }
 
