@@ -1,21 +1,15 @@
 {
   "mercadoria": [
     {
-      "produto": "Monitor",
-      "quantidade": "1",
-      "preco": "800",
-      "id": 1
-    },
-    {
-      "produto": "Filtro",
-      "quantidade": "1",
-      "preco": "40",
+      "produto": "Teclado",
+      "quantidade": "3",
+      "preco": "55",
       "id": 2
     },
     {
-      "produto": "Mouse",
-      "quantidade": "5",
-      "preco": "50",
+      "produto": "Cadeira",
+      "quantidade": "20",
+      "preco": "1200",
       "id": 3
     }
   ]

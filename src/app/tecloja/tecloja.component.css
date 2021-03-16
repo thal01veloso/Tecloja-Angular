@@ -1,0 +1,107 @@
+.campos, h2 {
+    margin: 30px;
+    text-align: center;
+}
+form {
+    text-align: center;
+}
+
+
+input:first-child {
+    width: 378px;
+}
+
+input {
+    background: rgb(245, 251, 255);
+    box-shadow: 2px 2px 4px rgba(70, 70, 70, 0.1);
+    
+    padding: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+::-webkit-input-placeholder {
+    color: rgb(177, 177, 177);
+    font-weight: 400;
+}
+
+.cadastrar {
+    background: #7c3cff;
+    color: #fff;
+
+    font-size: 20px;
+    font-weight: 600;
+
+    margin-top: -20px;
+    margin-left: 0;
+    
+    height: 50px;
+    width: 400px;
+
+    cursor: pointer;
+    transition: .3s;
+}
+
+.cadastrar:hover {
+    background: rgb(0, 255, 136, .7);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    width: 200px;
+    height: 50px;
+
+    margin: 20px 0px;
+
+    font-size: 16px;
+    font-weight: 600;
+}
+
+button, input {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+
+    height: 40px;
+    
+    outline: 0;
+    border-radius: 8px;
+    border: none;
+}
+
+.tabela {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+table, td {
+
+    text-align: center;
+    padding: 10px;
+}
+
+.excluir {
+    background: none;
+    border: 1px solid #ff3796;
+    color: #ff3796;
+
+    transition: .3s;
+}
+
+.excluir:hover {
+    color: #fff;
+    background: #ff3796;
+}
+
+.alterar {
+    background: #7c3cff;
+    color: #fff;
+
+    transition: .3s;
+}
+
+.alterar:hover {
+    background: rgb(0, 255, 136, .7);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
