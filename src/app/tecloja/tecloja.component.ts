@@ -1,3 +1,5 @@
+import { AuthService } from './../login/auth.service';
+import { Usuario } from './../Entity/usuario';
 import { Mercadoria } from './../Entity/mercadoria';
 import { Component, OnInit } from '@angular/core';
 import { TeclojaService } from '../service/tecloja.service';
@@ -47,6 +49,10 @@ export class TeclojaComponent implements OnInit {
     }, err=>{
       console.log("Erro na alteração da mercadoria",err)
     })
+  }
+  fazerLogout(){
+    this.teclojaService.logout();
+
   }
 
 }

@@ -1,3 +1,23 @@
 {
+<<<<<<< HEAD
   "mercadoria": []
+=======
+  "mercadoria": [
+    {
+      "produto": "Monitor",
+      "quantidade": 20,
+      "preco": "3000",
+      "id": 1
+    },
+    {
+      "produto": "Head Phone",
+      "quantidade": 70,
+      "preco": "400",
+      "id": 2
+    },
+    {
+      "id": 3
+    }
+  ]
+>>>>>>> ecd3cbd05b781a1cf3fbc700fe6e17361e7b3e13
 }
