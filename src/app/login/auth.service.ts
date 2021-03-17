@@ -15,7 +15,7 @@ export class AuthService {
   constructor(private router: Router) { }
 
  public login (usuario :Usuario) {
-        if (usuario.userName==="usuario@gmail.com" && usuario.senha === "123456"){
+      if (usuario.userName==="usuario@gmail.com" && usuario.senha === "123456"){
       this.usuarioAutenticado = true;
       this.router.navigate(['home']);
       console.log("Logado com sucesso")
@@ -24,4 +24,7 @@ export class AuthService {
       console.log("Erro")
   }
 }
+
+
 }
+

@@ -14,7 +14,7 @@ input:first-child {
 input {
     background: rgb(245, 251, 255);
     box-shadow: 2px 2px 4px rgba(70, 70, 70, 0.1);
-    
+
     padding: 10px;
     margin-right: 20px;
     margin-bottom: 20px;
@@ -34,7 +34,7 @@ input {
 
     margin-top: -20px;
     margin-left: 0;
-    
+
     height: 50px;
     width: 400px;
 
@@ -63,7 +63,7 @@ button, input {
     appearance: none;
 
     height: 40px;
-    
+
     outline: 0;
     border-radius: 8px;
     border: none;
@@ -75,8 +75,8 @@ button, input {
     width: 100%;
 }
 
-table, td {
 
+table, td {
     text-align: center;
     padding: 10px;
 }
