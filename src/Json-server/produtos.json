@@ -1,16 +1,3 @@
 {
-  "mercadoria": [
-    {
-      "produto": "Teclado",
-      "quantidade": "3",
-      "preco": "55",
-      "id": 2
-    },
-    {
-      "produto": "Cadeira",
-      "quantidade": "20",
-      "preco": "1200",
-      "id": 3
-    }
-  ]
+  "mercadoria": []
 }

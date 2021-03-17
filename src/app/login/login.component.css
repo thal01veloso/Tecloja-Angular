@@ -1,0 +1,93 @@
+.container {
+    height: 100vh;
+    align-content: center;
+    display: flex;
+}
+
+.logo {
+    margin-bottom: 16px;
+    margin-right: 18px;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+
+    transition: .2s;
+}
+
+a:hover {
+    color: #ff3796;
+    font-weight: 400;
+}
+
+.logo, a {
+    color: #fff;
+}
+
+form {
+    text-align: center;
+    margin: auto;
+
+    border-radius: 8px;
+    padding: 50px;
+    background-color: #7c3cff;
+
+    box-shadow: 6px 6px 8px rgba(70, 70, 70, .1);
+}
+
+input {
+    background: #fff;
+    box-shadow: 2px 2px 4px rgba(70, 70, 70, 0.1);
+
+    width: 256px;
+}
+
+button {
+    color: #fff;
+    background: #ff3796;
+
+    font-weight: 600;
+    font-size: 18px;
+
+    width: 300px;
+
+    cursor: pointer;
+
+    transition: .2s;
+}
+
+button:hover {
+    background: rgb(0, 255, 136, .8)
+}
+
+button, input {
+    border: none;
+    border-radius: 8px;
+
+    padding: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+
+    outline: none;
+}
+
+::-webkit-input-placeholder {
+    color: rgb(177, 177, 177);
+    font-weight: 400;
+    font-size: 14px;
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 18px;
+    height: 90px;
+
+    display: block;
+}
+
+.campos-login {
+    margin-left: 18px;
+}
+

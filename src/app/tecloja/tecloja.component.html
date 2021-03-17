@@ -3,32 +3,49 @@
   <form>
     <h2>Adicionar Produtos</h2>
     <div class="campos">
-      <input placeholder="Nome:" type="text" name="nome" [(ngModel)]="mercadoria.produto"><br>
+      <input placeholder="Nome" type="text" name="nome" [(ngModel)]="mercadoria.produto"><br>
       <input placeholder="Quantidade" type="number" name="quantidade" [(ngModel)]="mercadoria.quantidade">
-      <input placeholder="Preço" type="text" name="preco" [(ngModel)]="mercadoria.preco"><br><br>
+      <input placeholder="Preço" type="number" name="preco" [(ngModel)]="mercadoria.preco"><br><br>
       <button class="cadastrar" type="button" (click)="cadastrarMercadoria()">Cadastrar</button>
     </div>
   </form>
 
-  <h2>Produtos Cadastrados</h2>
-  <div class="tabela">
-    <table>
-      <tr>
-        <th>#ID</th>
-        <th>Produto</th>
-        <th>Quantidade</th>
-        <th>Preco</th>
-        <th>Total</th>
-      </tr>
-      <tr *ngFor='let item of produtos'>
-        <td>{{item.id}}</td>
-        <td>{{item.produto}}</td>
-        <td>{{item.quantidade}}</td>
-        <td>R$ {{item.preco}}</td>
-        <td>R$ {{item.preco*item.quantidade}}</td>
-        <td><button class="excluir" type="button" name="deletarMercadoria" (click)="deletarMercadoria(item.id)">Excluir</button></td>
-        <td><button class="alterar" type="button" name="alterarMercadoria" (click)="alterarMercadoria(item.id)">Alterar</button></td>
-      </tr>
-    </table>
-  </div>
+  <ng-template *ngIf='produtos.length > 0; then produtosCadastrados; else mensagem'></ng-template>
+
+  <ng-template #produtosCadastrados>
+    <div>
+      <h2>Produtos Cadastrados</h2>
+      <div class="tabela">
+        <table>
+          <tr>
+            <th>#ID</th>
+            <th>Produto</th>
+            <th>Quantidade</th>
+            <th>Preco</th>
+            <th>Total</th>
+          </tr>
+          <tr *ngFor='let item of produtos'>
+            <td>{{item.id}}</td>
+            <td>{{item.produto}}</td>
+            <td>{{item.quantidade}}</td>
+            <td>R$ {{item.preco}}</td>
+            <td>R$ {{item.preco*item.quantidade}}</td>
+            <td><button class="excluir" type="button" name="deletarMercadoria"
+                (click)="deletarMercadoria(item.id)">Excluir</button></td>
+            <td><button class="alterar" type="button" name="alterarMercadoria"
+                (click)="alterarMercadoria(item.id)">Alterar</button></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </ng-template>
+  <ng-template #mensagem>
+    <div>
+      <h2>Ainda não há produtos cadastrados</h2>
+    </div>
+  </ng-template>
 </div>
+<!-- <footer>
+  <h2>Colaboradores:</h2>
+  <p>Thales Veloso, Lucas Ezequiel, Thaís Quirino.</p>
+</footer> -->
