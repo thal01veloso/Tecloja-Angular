@@ -1,23 +1,22 @@
 {
-<<<<<<< HEAD
-  "mercadoria": []
-=======
   "mercadoria": [
     {
-      "produto": "Monitor",
-      "quantidade": 20,
-      "preco": "3000",
-      "id": 1
-    },
-    {
-      "produto": "Head Phone",
-      "quantidade": 70,
-      "preco": "400",
+      "produto": "Gabinete",
+      "quantidade": 4,
+      "preco": 300,
       "id": 2
     },
     {
+      "produto": "Teclado",
+      "quantidade": 10,
+      "preco": 100,
       "id": 3
+    },
+    {
+      "produto": "Mouse",
+      "quantidade": 12,
+      "preco": 80,
+      "id": 4
     }
   ]
->>>>>>> ecd3cbd05b781a1cf3fbc700fe6e17361e7b3e13
 }

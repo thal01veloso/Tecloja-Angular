@@ -1,3 +1,23 @@
+.logout {
+    color: #7c3cff;
+background: none;
+
+    border: solid 1px #7c3cff;
+
+    font-size: 16px;
+    cursor: pointer;
+
+    margin: 30px;
+
+    transition: .5s ease-out;
+}
+
+.logout:hover {
+    color: #fff;
+    background: #ff3796;
+    border: #ff3796;
+}
+
 .campos, h2 {
     margin: 30px;
     text-align: center;
@@ -23,7 +43,7 @@ input:first-child {
 
 input {
     background: rgb(245, 251, 255);
-    box-shadow: 2px 2px 4px rgba(70, 70, 70, 0.1);
+    box-shadow: 4px 4px 6px rgba(70, 70, 70, 0.1);
     
     padding: 10px;
     margin-right: 20px;
@@ -49,7 +69,7 @@ input {
     width: 400px;
 
     cursor: pointer;
-    transition: .3s;
+    transition: .3s ease-out;
 }
 
 .cadastrar:hover {
